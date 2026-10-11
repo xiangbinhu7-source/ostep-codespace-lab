@@ -147,7 +147,7 @@ Stats: IO Busy  5 (71.43%)
 - Prediction / 预测: 不同随机种子会生成不一样的指令序列，总时间和CPU利用率会随种子变化
 - Reasoning / 理由: 3:50表示每个进程3条指令，每条50%概率为CPU或IO；随机种子决定指令序列。
 - Verified result / 验证结果:
-- 1
+- s1
 Time        PID: 0        PID: 1           CPU           IOs
   1        RUN:cpu         READY             1          
   2         RUN:io         READY             1          
@@ -168,7 +168,7 @@ Time        PID: 0        PID: 1           CPU           IOs
 Stats: Total Time 15
 Stats: CPU Busy 8 (53.33%)
 Stats: IO Busy  10 (66.67%)
-- 2
+- s2
 Time        PID: 0        PID: 1           CPU           IOs
   1         RUN:io         READY             1          
   2        BLOCKED       RUN:cpu             1             1
@@ -190,7 +190,7 @@ Time        PID: 0        PID: 1           CPU           IOs
 Stats: Total Time 16
 Stats: CPU Busy 10 (62.50%)
 Stats: IO Busy  14 (87.50%)
-- 3
+- s3
 Time        PID: 0        PID: 1           CPU           IOs
   1        RUN:cpu         READY             1          
   2         RUN:io         READY             1          
